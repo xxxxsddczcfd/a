@@ -1,4 +1,4 @@
-export const CreateAuthor = ({ onCreate }) => (
+export const author = ({ onCreate }) => (
   <fieldset>
     <form onSubmit={onCreate}>
       <div>
