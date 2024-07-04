@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
-import { CreateAuthor } from "./components/CreateAuthor";
-import { AuthorsList } from "./components/AuthorList";
+
+import { author } from "./components/author";
+import { authorslist } from "./components/authorslist";
 import "./styles.css";
+import { useEffect, useState } from "react";
 
 const API_URL = "http://localhost:8000";
 
