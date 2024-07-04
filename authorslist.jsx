@@ -1,4 +1,4 @@
-export const AuthorsList = ({ authors = [], onDelete }) => (
+export const authorslist = ({ authors = [], onDelete }) => (
   <table>
     <thead>
       <tr>
